@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@angular/cli": "^1.4.2",
+    "@angular/compiler-cli": "4.3.1",
+    "@angular/language-service": "4.3.1",
     "@angular/animations": "4.3.1",
     "@angular/common": "4.3.1",
     "@angular/compiler": "4.3.1",
@@ -35,7 +37,8 @@
     "rxjs": "^5.1.0",
     "web3": "github:ethereum/web3.js",
     "web3-typescript-typings": "^0.9.3",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.8.4",
+    "typescript": "2.3.3"
   },
   "devDependencies": {
     "@angular/cli": "^1.4.2",
