@@ -11,21 +11,22 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@angular/cli": "^1.4.2",
-    "@angular/compiler-cli": "4.3.1",
-    "@angular/language-service": "4.3.1",
     "@angular/animations": "4.3.1",
+    "@angular/cli": "^1.4.2",
     "@angular/common": "4.3.1",
     "@angular/compiler": "4.3.1",
+    "@angular/compiler-cli": "4.3.1",
     "@angular/core": "4.3.1",
     "@angular/forms": "4.3.1",
     "@angular/http": "4.3.1",
+    "@angular/language-service": "4.3.1",
     "@angular/platform-browser": "4.3.1",
     "@angular/platform-browser-dynamic": "4.3.1",
     "@angular/router": "4.3.1",
     "@ng-bootstrap/ng-bootstrap": "1.0.0-beta.4",
     "bootstrap": "4.0.0-beta",
     "core-js": "^2.4.1",
+    "express": "^4.16.2",
     "iota.lib.js": "^0.4.7",
     "jquery": "3.2.1",
     "jw-bootstrap-switch-ng2": "1.0.3",
@@ -35,10 +36,10 @@
     "popper.js": "^1.12.3",
     "request": "^2.83.0",
     "rxjs": "^5.1.0",
+    "typescript": "2.3.3",
     "web3": "github:ethereum/web3.js",
     "web3-typescript-typings": "^0.9.3",
-    "zone.js": "^0.8.4",
-    "typescript": "2.3.3"
+    "zone.js": "^0.8.4"
   },
   "devDependencies": {
     "@angular/cli": "^1.4.2",
@@ -60,9 +61,8 @@
     "tslint": "~5.3.2",
     "typescript": "2.3.3"
   },
-
   "engines": {
-  "node": "6.11.3",
-  "npm": "3.10.10"
-}
+    "node": "6.11.3",
+    "npm": "3.10.10"
+  }
 }
