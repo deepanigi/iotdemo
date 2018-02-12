@@ -15,7 +15,7 @@ const routes: Routes =[
     { path: 'signup',           component: SignupComponent },
     { path: 'landing',          component: LandingComponent },
     { path: 'nucleoicons',      component: NucleoiconsComponent },
-    { path: 'iota-demo.herokuapp.com', redirectTo: 'home' }
+    { path: 'iota-demo.herokuapp.com', redirectTo: 'home', pathMatch: 'full' }
 ];
 
 @NgModule({
